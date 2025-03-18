@@ -1,4 +1,4 @@
-# DRIVE (**D**eep **R**e**I**nforced Accident Anticipation with **V**isual **E**xplanation)
+# DRIVE (**D**eep **R**e**i**nforced Accident Anticipation with **V**isual **E**xplanation)
 [Project](https://www.rit.edu/actionlab/drive) **|** [Paper & Supp](https://arxiv.org/abs/2107.10189) **|** [Demo](https://www.youtube.com/watch?v=A3bTWejzUwM)
 
 [Wentao Bao](https://cogito2012.github.io/homepage), 
