@@ -49,7 +49,7 @@ This repo currently supports for the down-sized version of [DADA-2000 dataset](h
 We also noticed that the original DATA-2000 dataset was updated, here we provide the processed [DADA-2000-small.zip](https://drive.google.com/file/d/1o0TBvwp2UPBmhOsvsXRL1uJoCR4NK15X/view?usp=sharing) for your convenience. Simply download and unzip it into `data` folder:
 ```shell
 cd data
-unzip DADA-2000-small.zip ./
+unzip DADA-2000-small.zip
 ```
 
 ## Testing
