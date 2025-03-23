@@ -323,9 +323,9 @@ def test():
     AUC_video, AUC_frame = evaluation_auc_scores(all_pred_scores, all_gt_labels, all_toas, FPS, video_len=5, pos_only=True, random=isRandom)
     print("[Correctness] v-AUC = %.5f, f-AUC = %.5f"%(AUC_video, AUC_frame))
 
-    # AP, mTTA, TTA_R80, p05, r05, t05 = evaluation_accident(all_pred_scores, all_gt_labels, all_toas, fps=FPS)
-    # print("AP = %.4f, mean TTA = %.4f, TTA@0.8 = %.4f"%(AP, mTTA, TTA_R80))
-    # print("\nprecision@0.5 = %.4f, recall@0.5 = %.4f, TTA@0.5 = %.4f\n"%(p05, r05, t05))
+    AP, mTTA, TTA_R80, p05, r05, t05 = evaluation_accident(all_pred_scores, all_gt_labels, all_toas, fps=FPS)
+    print("AP = %.4f, mean TTA = %.4f, TTA@0.8 = %.4f"%(AP, mTTA, TTA_R80))
+    print("\nprecision@0.5 = %.4f, recall@0.5 = %.4f, TTA@0.5 = %.4f\n"%(p05, r05, t05))
     
     mse_fix = evaluation_fixation(all_pred_fixations, all_gt_fixations)
     print('[Attentiveness] Fixation MSE = %.4f\n'%(mse_fix))
