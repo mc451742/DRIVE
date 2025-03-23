@@ -119,3 +119,17 @@ See [MiT License](/LICENSE)
 ## Acknowledgement
 
 We sincerely thank all of the following great repos: [pytorch-soft-actor-critic](https://github.com/pranz24/pytorch-soft-actor-critic), [pytorch-REINFORCE](https://github.com/chingyaoc/pytorch-REINFORCE), [MLNet-Pytorch](https://github.com/immortal3/MLNet-Pytorch), and [TASED-Net](https://github.com/MichiganCOG/TASED-Net).
+
+## Programming Enviornment
+
+To be compatible with cuda 11.8:
+
+```bash
+pip uninstall torch torchvision
+pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+pip uninstall kornia torchvision
+pip install kornia==0.5.0 torchvision==0.14.1
+pip uninstall tensorboard
+pip install tensorboard==1.15.0
+pip install "protobuf<3.21.0" --force-reinstall
+```
